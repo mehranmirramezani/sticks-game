@@ -49,7 +49,7 @@ def doIntersect(p1,q1,p2,q2):
 
 # This function determines the number of groups of sticks!
 # The "Sweep Line Algorithm" can potentially reduce the complexity and computational cost; however, I did not implement this here.
-#The "Sweep Line Algorithm" is described here: https://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/
+# The "Sweep Line Algorithm" is described here: https://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/
 def number_of_groups(input_data):
 
     segs = np.loadtxt(input_data, dtype='f', delimiter=' ')
